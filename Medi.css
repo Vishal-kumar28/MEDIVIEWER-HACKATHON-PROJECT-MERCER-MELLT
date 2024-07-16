@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    font-family: arial;
+    border: border-box;
+}
+
+.firstpage{
+    height: 450px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.name{
+    height: 450px;
+    width: 50%;
+    background-color: #5e17eb;
+    align-items: start;
+
+}
+h1{
+    color: #e9c6ef;
+    padding-left: 100px;
+    padding-top: 10px;
+    font-size: 60px;
+}
+#para{
+    margin-left: 200px;
+}
+
+.photo{
+    height: 450px;
+    width: 50%;
+    background-image: url("Medi\ viewer.png");
+    background-size: cover;
+}
+
+.secondpage{
+    height: 450px;
+    background-color: #a851b6;
+    color: #e9c6ef;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.thirdpage{
+    height: 450px;
+    background-color: #d099d9;
+    color: #0e0d0e;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#scan-section {
+    text-align: center;
+    font-size: 150%;
+    padding: 20px;
+    height: 100px;
+    width: 800px;
+  }
+  
+  #info-section {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  button {
+    background-color: #a851b6 ;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px;
+    padding: 15px 32px 2px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius:10px;
+    
+  }
+
+  #SCAN{
+    padding-top: 20px;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+
+footer{
+    background-color: black;
+    height: 250px;
+  }
+  #copy-right{
+    text-align:right;
+    color: white;
+    font-size: 35px;
+  }
+ h2{
+    font-size: 40px;
+    
+ }
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#detailsContainer {
+    margin-top: 20px;
+}
+
+#detailsContainer p {
+    margin-bottom: 5px;
+}
+
+/* more */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+  color: #3498db;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #3498db;
+}
+
+button {
+  display: block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #ff6b6b;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff3d3d;
+}
+
+#detailsContainer {
+  margin-top: 20px;
+}
+
+#detailsContainer p {
+  margin-bottom: 5px;
+}
+
+.fileInput {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.fileInput input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: rgb(213, 6, 6);
+  cursor: inherit;
+  display: block;
+}
+
+.fileInput::before {
+  content: "Choose a file or drag it here";
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ff6b6b;
+  border-radius: 3px;
+  background-color: #73e8cb;
+  color: #ff6b6b;
+  text-align: center;cursor: pointer;
+}
+
+.fileInput:hover::before,
+.fileInput:focus::before {
+  border-color: #f50a0a;
+  color: #ff3d3d;
+}
+
+.uploadedImage {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.uploadedImage img {
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+}
